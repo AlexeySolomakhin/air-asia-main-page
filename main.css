@@ -1,0 +1,132 @@
+
+/* Другой вариант подключения шрифтов */
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap'); */
+
+body {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.42;
+    background: #001821;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: grayscale;    
+}
+
+a {
+    color: inherit;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1141px; 
+}
+.header {
+    height: 123.36px;
+    position: relative;
+    margin-bottom: 120px;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    top: 29px;
+    left: 0;
+    width: 85px;
+    height: 36px;
+}
+
+.logo__img {
+    width: 85px;
+    height: 36px;
+}
+
+.menu {
+    position: absolute;
+    top: 20px;
+    left: 354px;  
+}
+
+.contacts {
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 54px;
+}
+
+.menu__link {
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.menu__link:hover {
+    color:#DA0100;
+
+}
+
+.contacts {
+    font-style:normal;
+    text-align: right;
+}
+
+.contacts__phone {
+    text-decoration: none;
+    font-size: 26px;
+    margin-bottom: 4px;
+}
+
+.contacts__dropdown-title {
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.hero__text-section {
+    width: 520px;
+}
+
+.hero__title {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 100%;
+    margin-bottom:27.5px;
+}
+
+.hero__subtitle {
+    font-size: 18px;
+    font-style: normal;
+    margin-bottom: 33.5px;
+}
+
+.btn {
+    background:#F5170E;
+    border-radius: 35px;
+    padding: 18px 40px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #DA0100;
+    box-shadow: 0px 2px 4px 0px #DA01004D;
+}
